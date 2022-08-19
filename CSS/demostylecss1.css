@@ -1,0 +1,16 @@
+h1{
+    color: rgba(0, 0, 255, 20);
+}
+p{
+    color: #CC6600;
+    font-size: 16px;
+    font-weight: inherit;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-align: justify;/* left right center justify */
+    text-decoration: underline;/* underline line-through overline none */
+    text-transform: capitalize;/* uppercase lowercase capitalize none */
+    font-style: italic;/* italic */
+    background-color: azure;
+    width: 800px;
+}

@@ -1,0 +1,29 @@
+body{
+    width: 687px;
+}
+h1{
+    word-spacing: 1px;
+    color: initial;
+    font-size: 27px;
+    margin-bottom: 16px;
+    display: block;
+    line-height: normal;
+    font-weight: 600;
+    font-family: Arial,Helvetica,sans-serif;
+}
+h2{
+    font-size: 15px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p{
+    font-size: 15px;
+    line-height: 1.6;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

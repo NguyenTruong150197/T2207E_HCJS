@@ -1,3 +1,9 @@
+body{
+    background-color: bisque;
+    background-image: url("../Images/1660658724-thanh-huong-vai-hoan-thu-6985-1660295659158-166029565929923347557-width645height968.jpg");
+    background-size: cover;
+}
+
 h1{
     color: rgba(0, 0, 255, 20);
 }

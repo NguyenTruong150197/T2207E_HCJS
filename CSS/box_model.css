@@ -1,0 +1,58 @@
+div{
+    width: calc(25% - 10px - 10px);/* hàm cal dùng để tính toán những đơn vị khác nhau */
+    float: left; /* left right none */ /* dùng để đẩy các khối */
+    border: 1px solid #ff0000; /* solid dotted dashed */
+    /*
+    border-top: 1px solid #ff0000;
+    border-right: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
+    border-left: 1px solid #ff0000;
+     */
+    margin: 10px 10px 10px 10px;/* Khi có đủ 4 thông số thì lấy theo thứ tự bên dưới */
+    /* Nếu thằng nào thiếu thì lấy thông số thằng đối diện */
+    /*
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+     */
+    padding: 15px 15px 15px 15px;
+    /*
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+     */
+    box-sizing: border-box;
+    border-radius: 50px; /* cắt góc xong bo lại */
+    box-shadow: 5px 10px 10px purple; /* tạo bóng cho các khối */
+    transition: 100ms all;
+
+}
+div:hover{ /* hover là khi đưa chuột vào thì sẽ có hiệu ứng đặc biệt */
+    /* transform: translate(50px, 50px); */
+    /* transform: rotate(45deg); */
+    transform: scale(1.1);
+
+}
+img{
+    max-width: 100%;
+}
+body .box-bt #pb{
+    color: brown;
+}
+#pb{
+    color: black;
+}
+.box-bt .bb{
+    color: black;
+}
+body .box-bb p{
+    color: blueviolet;
+}
+p{
+    color: red;
+}
+p{
+    color: aqua;
+}

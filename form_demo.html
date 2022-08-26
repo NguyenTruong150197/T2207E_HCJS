@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="CSS/form_demo.css">
+</head>
+<body>
+    <form method="get" action="#">
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Full name" required> <! required dùng để khi có dữ liệu bên trong thì mới gửi đi >
+        <br>
+        <label>Email:</label>
+        <input type="text" name="email" placeholder="Email" required>
+        <br>
+        <label>Tel:</label>
+        <input type="tel" name="tel" placeholder="Tel" required>
+        <br>
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Password..." required>
+        <br>
+        <label>Age:</label>
+        <input type="number" min="1" max="100" name="age" placeholder="Age...">
+        <br>
+        <label>Birthday:</label>
+        <input type="date" name="birthday" placeholder="Birthday...">
+        <br>
+        <label>Time:</label>
+        <input type="time" name="time" placeholder="Time...">
+        <br>
+        <label>My Color:</label>
+        <input type="color" name="color" placeholder="Color...">
+        <br>
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="Male">Nam</label>
+        <label><input type="radio" name="gender" value="Female">Nữ</label>
+        <label><input type="radio" name="gender" value="Other">Khác</label>
+        <br>
+        <label><input type="checkbox" name="confirm" value="yes">Tôi đã đọc và đồng ý với điều khoản của công ty</label>
+        <br>
+        <label>Tiểu sử bản thân:</label>
+        <textarea name="description" rows="10" cols="50"></textarea>
+        <br>
+        <label>Tỉnh/Thành phố:</label>
+        <select name="city">
+            <optgroup label="Miền Bắc">
+                <option value="hanoi">Hà Nội</option>
+                <option value="haiphong">Hải Phòng</option>
+            </optgroup>
+            <optgroup label="Miền Nam">
+                <option value="saigon">Hồ Chí Minh</option>
+                <option value="cantho">Cần Thơ</option>
+            </optgroup>
+        </select>
+        <button type="button">Button</button>
+        <button type="reset">Reset</button> <! Nút này sẽ reset lại form khi ấn >
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
